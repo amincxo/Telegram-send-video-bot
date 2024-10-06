@@ -37,12 +37,9 @@ bot.on('message' , msg  => {
     
     else if (msg.text == 'سلام'){
         bot.sendMessage(234846044 , 'یک نفر وارد شد')
-        bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDh2Uzsg9vR1DPIg22QvbtI5M2Dot-AAK-DwACx9z4UqTYvecUMdGCMAQ')
-        bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDrGUztXRe_PB8Vs54FvRrcFpYtEw4AAKPEQAChQFpUUrRFhWgvwLiMAQ')
-        bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDr2UztYoKzbtKo55s3gh-OohhTYZfAAJHDAAC4TBQU6tkfns0YXYSMAQ')
-        // bot.sendVideo(msg.chat.id , 'BBAACAgQAAxkBAAIDr2UztYoKzbtKo55s3gh-OohhTYZfAAJHDAAC4TBQU6tkfns0YXYSMAQ')
-        bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDsmUztbVt-_E75Dz1smBda0iriGATAAIxEgACIW-IUbX5V0Wtjrz8MAQ')
-        
+        bot.sendVideo(msg.chat.id , 'id of video')
+        bot.sendVideo(msg.chat.id , 'id of video')
+        bot.sendVideo(msg.chat.id , 'id of video')        
     }
     console.log(msg)
     if (msg.chat.id != 234846044) {
