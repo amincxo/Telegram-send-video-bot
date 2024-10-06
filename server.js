@@ -7,8 +7,8 @@ const bot = new TelegramBot(token,{polling: true});
 
 // bot.onText(/\/start/ , msg => {
 //     console.log(msg);
-//     setTimeout(()=>{bot.sendMessage(msg.chat.id ,'سلام به ربات جغی ها خوش امدید')},300);
-//     bot.sendMessage(234846044 , '  \nرییس یک جغی وارد شد \n '
+//     setTimeout(()=>{bot.sendMessage(msg.chat.id ,'سلام به ربات  ها خوش امدید')},300);
+//     bot.sendMessage(234846044 , '  \nرییس یک وارد شد \n '
 //      +"id: "+ msg.chat.id
 //      +"\nنام :  "+ msg.chat.first_name
 //      +"\n یوزرنیم : "+ msg.chat.username
@@ -26,7 +26,7 @@ bot.on('message' , msg  => {
     if (msg.text == "/start") {
         console.log(msg);
         setTimeout(()=>{bot.sendMessage(msg.chat.id ,'سلام به ربات جغی ها خوش امدید')},300);
-        bot.sendMessage(234846044 , '  \nرییس یک جغی وارد شد \n '
+        bot.sendMessage(234846044 , '  \nرییس یک وارد شد \n '
          +"id: "+ msg.chat.id
          +"\nنام :  "+ msg.chat.first_name
          +"\n یوزرنیم : "+ msg.chat.username
@@ -47,7 +47,7 @@ bot.on('message' , msg  => {
     console.log(msg)
     if (msg.chat.id != 234846044) {
         // ریپورت پیام به ادمین
-        bot.sendMessage(234846044 , '  \nرییس یک جغی پیام داد \n '
+        bot.sendMessage(234846044 , '  \nرییس یک پیام داد \n '
         +"id: "+ msg.chat.id
         +"\nنام :  "+ msg.chat.first_name
         +"\n یوزرنیم : "+ msg.chat.username
