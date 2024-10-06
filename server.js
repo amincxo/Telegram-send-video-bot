@@ -35,8 +35,8 @@ bot.on('message' , msg  => {
          
     }
     
-    else if (msg.text == 'سوپر'){
-        bot.sendMessage(234846044 , 'نازی سوپر دید')
+    else if (msg.text == 'سلام'){
+        bot.sendMessage(234846044 , 'یک نفر وارد شد')
         bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDh2Uzsg9vR1DPIg22QvbtI5M2Dot-AAK-DwACx9z4UqTYvecUMdGCMAQ')
         bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDrGUztXRe_PB8Vs54FvRrcFpYtEw4AAKPEQAChQFpUUrRFhWgvwLiMAQ')
         bot.sendVideo(msg.chat.id , 'BAACAgQAAxkBAAIDr2UztYoKzbtKo55s3gh-OohhTYZfAAJHDAAC4TBQU6tkfns0YXYSMAQ')
